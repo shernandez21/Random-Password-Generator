@@ -1,0 +1,9 @@
+import random
+list="JBAAJBKKDKBJFBABFnadkladlkhdk#$%*!_123456"
+password=""
+while 1:
+  pswdlen = int(input("what is the length of password: "))
+ # count = int(input("how many passwords do you want: "))
+  for i in range(0,pswdlen):
+    password += random.choice(list)
+  print("password is: ",password)
